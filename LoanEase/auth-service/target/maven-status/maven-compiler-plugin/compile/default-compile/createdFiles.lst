@@ -1,0 +1,6 @@
+com\jocata\los\userService\UserService.class
+com\jocata\los\authservice\service\AuthService.class
+com\jocata\los\authservice\config\AuthSecurityConfig.class
+com\jocata\los\authservice\controller\AuthServiceController.class
+com\jocata\los\authservice\service\impl\AuthServiceImpl.class
+com\jocata\los\AuthServiceApplication.class

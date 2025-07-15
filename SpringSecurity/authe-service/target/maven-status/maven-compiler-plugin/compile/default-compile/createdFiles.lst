@@ -1,0 +1,6 @@
+com\jocata\los\AuthController.class
+com\jocata\los\AuthResponse.class
+com\jocata\los\JwtUtil.class
+com\jocata\los\SecurityConfig.class
+com\jocata\los\AuthRequest.class
+com\jocata\los\AuthServiceApplication.class

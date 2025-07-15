@@ -1,0 +1,7 @@
+C:\git\order-mgmt-system\api-gateway\src\main\java\com\jocata\oms\service\CustomReactiveUserDetailsService.java
+C:\git\order-mgmt-system\api-gateway\src\main\java\com\jocata\oms\service\CustomAuthenticationConverter.java
+C:\git\order-mgmt-system\api-gateway\src\main\java\com\jocata\oms\service\CustomReactiveAuthenticationManager.java
+C:\git\order-mgmt-system\api-gateway\src\main\java\com\jocata\oms\ApiGatewayInitializer.java
+C:\git\order-mgmt-system\api-gateway\src\main\java\com\jocata\oms\dto\UserDetailsDTO.java
+C:\git\order-mgmt-system\api-gateway\src\main\java\com\jocata\oms\service\CustomSecurityContextRepository.java
+C:\git\order-mgmt-system\api-gateway\src\main\java\com\jocata\oms\security\SecurityConfig.java

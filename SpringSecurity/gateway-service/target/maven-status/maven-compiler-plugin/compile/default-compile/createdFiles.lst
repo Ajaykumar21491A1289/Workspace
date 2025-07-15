@@ -1,0 +1,3 @@
+com\jocata\los\JwtAuthGatewayFilterFactory.class
+com\jocata\los\JwtAuthGatewayFilterFactory$Config.class
+com\jocata\los\ApiGatewayApplication.class

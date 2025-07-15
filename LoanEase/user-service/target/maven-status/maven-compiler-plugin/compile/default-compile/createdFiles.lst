@@ -1,0 +1,5 @@
+com\jocata\los\userservice\controller\UserController.class
+com\jocata\los\userservice\service\impl\UserServiceImpl.class
+com\jocata\los\userservice\service\UserService.class
+com\jocata\los\userservice\dao\UserDAO.class
+com\jocata\los\UserServiceApplication.class

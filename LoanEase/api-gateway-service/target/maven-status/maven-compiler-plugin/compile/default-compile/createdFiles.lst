@@ -1,0 +1,3 @@
+com\jocata\los\config\SecurityConfig.class
+com\jocata\los\filter\JwtAuthenticationFilter.class
+com\jocata\los\ApiGatewayApplication.class

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../LoanEase/alert-notification-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../LoanEase/api-gateway-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../LoanEase/approval-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../LoanEase/auth-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../LoanEase/common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../LoanEase/data-model/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../LoanEase/data/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../LoanEase/disbursement-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../LoanEase/document-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../LoanEase/eureka-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../LoanEase/eureka-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../LoanEase/loan-application-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../LoanEase/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../LoanEase/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../LoanEase/user-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../LoanEaseSec/api_gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../LoanEaseSec/auth_service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../LoanEaseSec/common-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../LoanEaseSec/eureka_serice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../LoanEaseSec/eureka_serice/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../LoanEaseSec/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../LoanEaseSec/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../LoanEaseSec/untitled/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../LoanEaseSec/untitled/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../SpringSecurity/authe-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../SpringSecurity/common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../SpringSecurity/eureka-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../SpringSecurity/gateway-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../SpringSecurity/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../SpringSecurity/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../SpringSecurity/user-mgnt-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/api-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/notification-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/order-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/product-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-registry/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user-mgmt-service/src/main/java" charset="UTF-8" />
+  </component>
+</project>

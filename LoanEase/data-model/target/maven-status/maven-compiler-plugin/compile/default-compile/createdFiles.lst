@@ -1,0 +1,8 @@
+com\jocata\los\datamodel\auth\form\AuthRequest.class
+com\jocata\los\datamodel\auth\entity\Credentials.class
+com\jocata\los\datamodel\user\form\UserProfile.class
+com\jocata\los\datamodel\disbursment\entity\Disbursment.class
+com\jocata\los\datamodel\approval\entity\ApprovalRequest.class
+com\jocata\los\datamodel\user\entity\User.class
+com\jocata\los\datamodel\auth\form\AuthResponse.class
+com\jocata\los\datamodel\loanapplication\entity\LoanApplication.class

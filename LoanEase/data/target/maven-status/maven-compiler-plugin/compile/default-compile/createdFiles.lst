@@ -1,0 +1,7 @@
+com\jocata\los\data\credentials\dao\CredentialsDao.class
+com\jocata\los\data\credentials\dao\impl\CredentialsDaoImpl.class
+com\jocata\los\data\disbursment\dao\DisbursmentDao.class
+com\jocata\los\data\approvalrequest\dao\ApprovalRequestDao.class
+com\jocata\los\data\loanapplication\dao\LoanApplicationDao.class
+com\jocata\los\data\user\dao\impl\UserDAOImpl.class
+com\jocata\los\data\user\dao\UserDAO.class

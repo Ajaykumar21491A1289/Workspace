@@ -1,0 +1,4 @@
+com\jocata\oms\controller\UserController.class
+com\jocata\oms\form\UserDetailsForm.class
+com\jocata\oms\controller\LoginController.class
+com\jocata\oms\UserManagementService.class

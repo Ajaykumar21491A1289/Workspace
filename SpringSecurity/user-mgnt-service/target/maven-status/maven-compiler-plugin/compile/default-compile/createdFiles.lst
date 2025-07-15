@@ -1,0 +1,6 @@
+com\jocata\los\AdminController.class
+com\jocata\los\UserController.class
+com\jocata\los\UserServiceApplication.class
+com\jocata\los\RoleHeaderAuthenticationFilter.class
+com\jocata\los\SecurityConfig.class
+com\jocata\los\User.class
