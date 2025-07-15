@@ -1,0 +1,174 @@
+package com.jocata.order.dao.imp;
+
+import com.jocata.order.dao.OrderDao;
+import com.jocata.order.entity.OrderEntity;
+
+
+import java.util.*;
+import java.sql.*;
+
+public class OrderDaoImp implements OrderDao {
+    static Connection conn;
+
+    static {
+        String url = "jdbc:mysql://localhost:3306/jocata";
+        String user = "root";
+        String password = "21491A1289";
+
+        try {
+            conn = DriverManager.getConnection(url, user, password);
+        } catch (SQLException e) {
+            e.printStackTrace();
+            throw new RuntimeException("Database connection failed", e);
+        }
+    }
+
+    public String createOrder(OrderEntity entity){
+
+        PreparedStatement pstmt = null;
+        try {
+            pstmt = conn.prepareStatement("INSERT INTO orders VALUES (?, ?, ?, ?, ?, ?);");
+            pstmt.setInt(1, entity.getOrderId());
+            pstmt.setString(2, entity.getItemName());
+            pstmt.setInt(3, entity.getQuantity());
+            pstmt.setString(4, entity.getOrderAddress());
+            pstmt.setString(5, entity.getPhoneNumber());
+            pstmt.setString(6, entity.getCustomerName());
+            int result = pstmt.executeUpdate();
+            return result + " row(s) inserted.";
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        } finally {
+            closeResources(null, pstmt);
+        }
+
+
+
+    }
+
+    public String updateOrder(OrderEntity entity){
+
+        PreparedStatement pstmt = null;
+        try {
+            pstmt = conn.prepareStatement("UPDATE orders SET orderid=?, itemname=?, quantity=?, address=?, phonenumber=?, customername=? WHERE orderid=?;");
+            pstmt.setInt(1, entity.getOrderId());
+            pstmt.setString(2, entity.getItemName());
+            pstmt.setInt(3, entity.getQuantity());
+            pstmt.setString(4, entity.getOrderAddress());
+            pstmt.setString(5, entity.getPhoneNumber());
+            pstmt.setString(6, entity.getCustomerName());
+            pstmt.setInt(7,entity.getOrderId());
+
+            int res = pstmt.executeUpdate();
+            return res + " row(s) updated.";
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        } finally {
+            closeResources(null, pstmt);
+        }
+
+    }
+
+
+    public List<OrderEntity> getAllOrders() {
+        List<OrderEntity> orders = new ArrayList<>();
+        PreparedStatement pstmt = null;
+        ResultSet rs = null;
+
+        try {
+            pstmt = conn.prepareStatement("SELECT * FROM orders;");
+            rs = pstmt.executeQuery();
+
+            while (rs.next()) {
+                orders.add(mapToOrderEntity(rs));
+            }
+
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        } finally {
+            closeResources(rs, pstmt);
+        }
+
+        return orders;
+    }
+
+
+    public OrderEntity getOrder(Integer orderId) {
+        PreparedStatement pstmt = null;
+        ResultSet rs = null;
+        OrderEntity entity = null;
+
+        try {
+            pstmt = conn.prepareStatement("SELECT * FROM orders WHERE orderid = ?;");
+            pstmt.setInt(1, orderId);
+            rs = pstmt.executeQuery();
+
+            while (rs.next()) {
+                entity =mapToOrderEntity(rs);
+            }
+
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        } finally {
+            closeResources(rs, pstmt);
+        }
+
+        return entity;
+    }
+
+
+    public String cancelOrder(Integer orderId) {
+        PreparedStatement pstmt = null;
+
+        try {
+            pstmt = conn.prepareStatement("DELETE FROM orders WHERE orderid = ?;");
+            pstmt.setInt(1, orderId);
+
+            int result = pstmt.executeUpdate();
+
+            if (result > 0) {
+                return "Order with ID " + orderId + " has been successfully cancelled.";
+            } else {
+                return "No order found with ID " + orderId + ".";
+            }
+
+        } catch (SQLException e) {
+            throw new RuntimeException("Error cancelling order: " + e.getMessage(), e);
+        } finally {
+            closeResources(null, pstmt);
+        }
+    }
+
+    private OrderEntity mapToOrderEntity(ResultSet rs) throws SQLException {
+        OrderEntity entity = new OrderEntity();
+        entity.setEntityOrderId(rs.getInt("orderid"));
+        entity.setItemName(rs.getString("itemname"));
+        entity.setEntityQuantity(rs.getInt("quantity"));
+        entity.setOrderAddress(rs.getString("address"));
+        entity.setPhoneNumber(rs.getString("phonenumber"));
+        entity.setCustomerName(rs.getString("customername"));
+        return entity;
+    }
+
+
+
+    public static void closeResources(ResultSet rs, PreparedStatement pstmt) {
+        try {
+            if (rs != null) rs.close();
+            if (pstmt != null) pstmt.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void closeConnection() {
+        try {
+            if (conn != null && !conn.isClosed()) {
+                conn.close();
+                System.out.println("Database connection closed.");
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+}

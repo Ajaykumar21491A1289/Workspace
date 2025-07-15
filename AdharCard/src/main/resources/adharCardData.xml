@@ -1,0 +1,141 @@
+<aadharDetails>
+<aadhaarData>
+    <number>123456789012</number>
+    <name>Ajay Kumar</name>
+    <gender>Male</gender>
+    <dob>1998-07-15</dob>
+    <fatherName>Prasad Kumar</fatherName>
+    <address>
+        <street>123 Tech Park</street>
+        <city>Hyderabad</city>
+        <state>Telangana</state>
+        <pincode>500081</pincode>
+    </address>
+</aadhaarData>
+
+<aadhaarData>
+<number>234567890123</number>
+<name>Meera Sharma</name>
+<gender>Female</gender>
+<dob>1990-02-12</dob>
+<fatherName>Rakesh Sharma</fatherName>
+<address>
+    <street>45 Green Meadows</street>
+    <city>Pune</city>
+    <state>Maharashtra</state>
+    <pincode>411045</pincode>
+</address>
+</aadhaarData>
+
+<aadhaarData>
+<number>345678901234</number>
+<name>Rohan Mehta</name>
+<gender>Male</gender>
+<dob>1985-11-30</dob>
+<fatherName>Harish Mehta</fatherName>
+<address>
+    <street>78 Sector 21</street>
+    <city>Chandigarh</city>
+    <state>Chandigarh</state>
+    <pincode>160022</pincode>
+</address>
+</aadhaarData>
+
+<aadhaarData>
+<number>456789012345</number>
+<name>Sneha Iyer</name>
+<gender>Female</gender>
+<dob>1993-05-25</dob>
+<fatherName>Narayan Iyer</fatherName>
+<address>
+    <street>9 MG Road</street>
+    <city>Bengaluru</city>
+    <state>Karnataka</state>
+    <pincode>560001</pincode>
+</address>
+</aadhaarData>
+
+<aadhaarData>
+<number>567890123456</number>
+<name>Ankit Verma</name>
+<gender>Male</gender>
+<dob>1988-10-08</dob>
+<fatherName>Rajeev Verma</fatherName>
+<address>
+    <street>66 Civil Lines</street>
+    <city>Jaipur</city>
+    <state>Rajasthan</state>
+    <pincode>302006</pincode>
+</address>
+</aadhaarData>
+
+<aadhaarData>
+<number>678901234567</number>
+<name>Kavita Joshi</name>
+<gender>Female</gender>
+<dob>1991-12-22</dob>
+<fatherName>Suresh Joshi</fatherName>
+<address>
+    <street>22 Lotus Colony</street>
+    <city>Bhopal</city>
+    <state>Madhya Pradesh</state>
+    <pincode>462001</pincode>
+</address>
+</aadhaarData>
+
+<aadhaarData>
+<number>789012345678</number>
+<name>Rahul Deshmukh</name>
+<gender>Male</gender>
+<dob>1979-03-17</dob>
+<fatherName>Shivaji Deshmukh</fatherName>
+<address>
+    <street>34 Tilak Road</street>
+    <city>Nagpur</city>
+    <state>Maharashtra</state>
+    <pincode>440010</pincode>
+</address>
+</aadhaarData>
+
+<aadhaarData>
+<number>890123456789</number>
+<name>Priya Nair</name>
+<gender>Female</gender>
+<dob>1987-09-05</dob>
+<fatherName>Venkat Nair</fatherName>
+<address>
+    <street>18 Marine Drive</street>
+    <city>Kochi</city>
+    <state>Kerala</state>
+    <pincode>682016</pincode>
+</address>
+</aadhaarData>
+
+<aadhaarData>
+<number>901234567890</number>
+<name>Vikram Singh</name>
+<gender>Male</gender>
+<dob>1995-06-14</dob>
+<fatherName>Baldev Singh</fatherName>
+<address>
+    <street>77 Lake View</street>
+    <city>Lucknow</city>
+    <state>Uttar Pradesh</state>
+    <pincode>226001</pincode>
+</address>
+</aadhaarData>
+
+<aadhaarData>
+<number>012345678901</number>
+<name>Deepika Reddy</name>
+<gender>Female</gender>
+<dob>1992-01-09</dob>
+<fatherName>Nagarjuna Reddy</fatherName>
+<address>
+    <street>98 Jubilee Hills</street>
+    <city>Hyderabad</city>
+    <state>Telangana</state>
+    <pincode>500033</pincode>
+</address>
+</aadhaarData>
+</aadharDetails>
